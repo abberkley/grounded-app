@@ -1,0 +1,21 @@
+.app__aboutus {
+    margin-bottom: 9rem;
+}
+
+.about--content {
+    background-color: var(--color-pink);
+    color: var(--color-berry);
+    margin: 1.5rem auto 3rem;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about--copy {
+    width: 52%;
+    padding: 6.6rem;
+}
+
+.about--content img {
+    width: 47%;
+}

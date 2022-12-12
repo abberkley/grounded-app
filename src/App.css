@@ -1,1 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+/** variables **/
+:root {
+  --color-berry: #a6513e;
+  --color-teal: #a2b4ac;
+  --color-pink: #e4c8b8;
+  --color-cream: #fefaf3;
+  --color-tan: #C2924C;
+}
+
+img {
+  max-width: 100%;
+  display: inline;
+}
+
+/** type styles **/
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 7rem;
+  line-height: 6.9rem;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  text-align: center;
+  text-transform: lowercase;
+  color: var(--color-berry);
+}
+
+h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  text-transform: lowercase;
+}
+
+p, a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+p {
+  font-weight: 500;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+/** nav + header styling **/
+.App {
+  background-color: var(--color-cream);
+}
+
+header {
+  background-image: url('./assets/hero-image.jpg');
+  background-size: cover;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 8rem 4rem 8rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li:hover, .active {
+  border-bottom: var(--color-teal) solid 5px;
+}
+
+.hero-message {
+  width: 55%;
+  padding: 5rem 42.4rem 4.1rem 14.6rem;
+  margin: 0;
+}
+
+.text-on-dark {
+  color: white;
+}
+
+/** footer styling **/
+.footer-message {
+  background-color: var(--color-teal);
+  margin: 0;
+  padding: 7.5rem 12.4rem;
+}
+
+.footer-logo {
+  background-image: url('./assets/footer-image.jpg');
+  background-size: cover;
+  padding: 4.8rem;
+}
+
+.footer-logo h1 {
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
 

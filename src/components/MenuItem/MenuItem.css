@@ -1,0 +1,8 @@
+.menu-item {
+    text-align: center;
+    width: 24%;
+    background-color: var(--color-tan);
+    color: white;
+    opacity: 70%;
+    padding: 9rem 7.5rem 5.6rem;
+}

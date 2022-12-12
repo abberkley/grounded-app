@@ -1,0 +1,8 @@
+.app__menu {
+    margin-bottom: 9rem;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

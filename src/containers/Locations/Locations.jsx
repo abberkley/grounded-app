@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
 
 import './Locations.css';
-import images from '../../constants/images';
 
 const Locations = () => (
-  <div className='app__locations'>
-    Locations
-  </div>
+	<div className="app__locations">
+		<h3>location & hours</h3>
+	</div>
 );
 
 export default Locations;

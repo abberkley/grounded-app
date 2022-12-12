@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+This is a one-page application of a fake coffee store, grounded. The structure of it is built using JS react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Feel free to look around the application. You might notice that the only thing that is public is index.html. This is because all the work done is coded in the src files, which allows developers to better organize the pages, make it more responsive in real-time and increase the reusability of the prewritten code. Free resources can be found at: https://reactjs.org
 
-## Available Scripts
+Most of the work done already includes ensuring everything is linked correctly, importing all assets and copy needed. Any needed copy will be pasted down below.
 
-In the project directory, you can run:
+The objective of this challenge is to get used to the fuctionality of react, primarily its usage of components (similar to the idea of templates).
 
-### `npm start`
+This will need to be executed in two different areas: the locations section and the menu section. I'll be providing some accompaning instruction on how to implement th menu section, but the final challenge will be using what you've learned to finish out the location section!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+/ INSTRUCTIONS /
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Use the following information & put it in the data.js file. One of the data entries has already been put in as an example, so use it as a guide for implementing the rest of the information. (copy can be found here: https://www.figma.com/file/yGZBrGYFqRwVFn5Z1ygWHy/Untitled?node-id=0%3A1&t=mjFQ7pXywu5NqMy2-1).
 
-### `npm test`
+2. Next, go to Menu.jsx. We're going to start building out the code needed to implement all the drinks that were put into the data. This is where react truly shines, as we'll only need to set it up one for it to call all of the drinks that we put in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Once you get it working, you can now try to execute the same method in doing the locations page!
+   Keep in mind the following:
+   - you'll have to create the 'LocationItem' component & add it to the index.js folder in components so it'll be executed properly!
+   - make sure your importing/exporting correctly. You can look at what's already been coded in the Menu & About component for help.
