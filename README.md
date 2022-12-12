@@ -16,5 +16,6 @@ This will need to be executed in two different areas: the locations section and 
 
 3. Once you get it working, you can now try to execute the same method in doing the locations page!
    Keep in mind the following:
+   -the first step is getting all the 'location' data in the data.js file, just like before, you'll want to organize the information in an array and the include it in the exports.
    - you'll have to create the 'LocationItem' component & add it to the index.js folder in components so it'll be executed properly!
    - make sure your importing/exporting correctly. You can look at what's already been coded in the Menu & About component for help.
